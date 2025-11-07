@@ -1,0 +1,67 @@
+body {
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background: #f7f9fc;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  background: #004aad;
+  color: white;
+  padding: 2rem 1rem;
+  border-bottom: 4px solid #003a84;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  border-left: 5px solid #004aad;
+  padding-left: 10px;
+}
+
+.video-card {
+  background: #f0f4ff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.video-placeholder {
+  background: #dce6ff;
+  color: #004aad;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+}
